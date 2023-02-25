@@ -1,0 +1,61 @@
+/* Adicionando fonte externa baixada. */
+@font-face {
+    font-family: gothic;
+    src: url(./Fontes/old_london/OldLondon.ttf);
+    src: url(./Fontes/old_london/OldLondonAlternate.ttf)
+}
+
+/* Estilização das margens. */
+* {
+    padding: 0;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+/* Declarando a cor da página. */
+body {
+    background-color: #FAF2DE;
+    margin: 0;
+}
+
+/* Declarando posição, estilo, cor e tipo de fonte do título */
+h1 {
+    font-family: gothic;
+    font-size: 500%;
+    text-align: center;
+    color: #006600;
+}
+
+/* Centralizando a imagem */
+img {
+    margin: auto;
+    display: block;
+}
+
+/* Declarando posição, estilo, cor e tipo de fonte do parágrafo */
+p {
+    font-family: gothic;
+    font-size: 180%;
+    text-align: justify;
+    color: #000000;
+}
+
+/* Declarando estilo, cor da fonte, cor de fundo e tamanho da fonte da primeira letra do primeiro parágrafo */
+#inicio::first-letter {
+    background-color: #006600;
+    font-size: 250%;
+    color: #FAF2DE;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Centralizando o footer */
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Dando cor ao parágrafo */
+#footer {
+    color: #006600;
+}
